@@ -1,0 +1,45 @@
+.header {
+    width: 85%;
+    padding: 0.8rem;
+    background: transparent; /* Color de fondo semitransparente */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */    
+    border-radius: 10rem;
+    position: fixed;
+    top: 0.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.header__a {
+    color: var(--black-color);
+    font-size: 0.6rem;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 48rem) {
+    .header {
+        width: 70%;
+    }
+
+    .header__a {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 64rem) {
+    .header {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .header__a {
+        font-size: 0.8rem;
+    }
+
+    
+}

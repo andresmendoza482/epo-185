@@ -360,12 +360,12 @@
 
 /* ------------------------------- Font size fluid design ------------------------------- */
 html {
-    font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1400 - 300)));
+    font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1400 - 300)));
 }
 
 :root {
     --light-color: #f2f2f2;
-    --dark-color: #111;
+    --black-color: #111;
     --accent-color: #17517E;
     --secundary-color: #CF0E0E;
 }
@@ -380,7 +380,7 @@ html {
   src: url(../src/assets/fonts/Montserrat-Regular.ttf);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 , a{
   font-family: "Rubik", "Montserrat";
 }
 
