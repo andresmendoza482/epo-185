@@ -1,27 +1,19 @@
-# Epo185
+<div align="center">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+# ESCUELA PREPARATORIA OFICIAL (EPO) 185.
 
-## Development server
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+En este proyecto tuve la labor de diseñar y desarrollar el sitio oficial de la Escuela Preparatoria Oficial (EPO) No.185, el cual contendrá información relevante de la misma como lo es la misión, visión, contacto, plan de estudios, ubicación, información sobre trabajo colegiado, entre otras muchas cosas.
 
-## Code scaffolding
+Las tecnologías utilizadas en la elaboración de este proyecto fueron:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular - Framework de desarrollo de la aplicación SPA.
+- CSS - Estilos y animaciones.
+- Typescript - lenguaje con el que trabaja el Framework Angular.
 
-## Build
+<div style="padding-top: 1.5rem" align="center">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Created by Andrés Mendoza.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+</div>
