@@ -360,7 +360,7 @@
 
 /* ------------------------------- Font size fluid design ------------------------------- */
 html {
-    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1400 - 300)));
+    font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1400 - 300)));
 }
 
 :root {
@@ -368,4 +368,22 @@ html {
     --dark-color: #111;
     --accent-color: #17517E;
     --secundary-color: #CF0E0E;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(../src/assets/fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../src/assets/fonts/Montserrat-Regular.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rubik", "Montserrat";
+}
+
+p {
+  font-family: "Montserrat", "Rubik";
 }
