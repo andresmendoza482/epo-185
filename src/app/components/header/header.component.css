@@ -5,6 +5,7 @@
     backdrop-filter: blur(10px); /* Desenfoque del fondo */    
     border-radius: 10rem;
     position: fixed;
+    z-index: 999;
     top: 0.5rem;
     left: 0;
     right: 0;

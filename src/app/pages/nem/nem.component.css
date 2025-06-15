@@ -1,0 +1,35 @@
+.nem {
+    width: 100%;
+    min-height: 100vh;
+    padding: 2.5rem;
+}
+
+.nem__h1 {
+    text-align: center;
+}
+
+.nem__p,
+.nem__h2,
+.nem__li {
+    margin-bottom: 1rem;
+}
+
+.nem__a {
+    color: var(--accent-color);
+}
+
+.nem__h2--tr {
+    text-align: right;
+}
+
+@media screen and (min-width: 64rem) {
+    .nem {
+        width: 100%;
+        min-height: 100vh;
+        padding: 3rem 9rem;/* tiene que ser de 1.5rem*/
+    }
+
+    .nem__h2--tr {
+        text-align: left;
+    }
+}
